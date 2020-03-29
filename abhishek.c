@@ -65,6 +65,6 @@ double page_fault_rate(double servicePageFaultEmpty,double servicePageFaultMod,d
 	double pageFault;
 	 assume = (1- timesPages)*servicePageFaultEmpty;
 	 serve = timesPages*servicePageFaultMod;
-	 numErator = effAccess + memAccess;
+	 numErator = effAccess - memAccess;
 
 
